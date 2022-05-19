@@ -20,6 +20,7 @@ public class UserPracticeApplication {
 	public static void main(String[] args) {
 		logger.info("Application executed...");
 		SpringApplication.run(UserPracticeApplication.class, args);
+		System.out.println("Hello");
 	}
 
 }
