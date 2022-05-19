@@ -21,7 +21,7 @@ import com.arghya.practice.dao.MyRepo;
 import com.arghya.practice.model.User;
 import com.arghya.practice.service.UserService;
 
-//@RunWith(SpringRunner.class)
+@RunWith(SpringRunner.class)
 @SpringBootTest
 class UserPracticeApplicationTests {
 
@@ -29,8 +29,8 @@ class UserPracticeApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		//logger.info("Test case Executing....");
-		//assertEquals(true,true);
+		logger.info("Test case Executing....");
+		assertEquals(true,true);
 	}
 	
 	/*@Autowired
